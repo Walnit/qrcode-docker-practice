@@ -1,5 +1,13 @@
 services:
   backend:
     build: ./backend
+    networks:
+      - backtier
+  frontend:
+    build: ./frontend
     ports:
-      - "8000:8000"
+      - "80:80"
+    networks:
+      - backtier
+networks:
+  backtier:

@@ -23,7 +23,7 @@ function App() {
           className="flex flex-row gap-2 p-8 w-2/3 h-2/3 bg-white rounded-3xl"
         >
           <div id="options" className="flex flex-col items-start w-2/3 h-full">
-            <h1 className="pb-2 text-3xl font-bold">QR Code Generator</h1>
+            <h1 className="pb-2 text-3xl font-bold">QR Code Generator!</h1>
             <div className="flex flex-row items-center w-full">
               <p>URL:</p>
               <input
