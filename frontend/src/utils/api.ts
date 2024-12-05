@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'http://localhost/api'
+    baseURL: import.meta.env.VITE_BACKEND_URL
 })
 
 export function generateQR(value: string) {
