@@ -1,5 +1,5 @@
 import { Suspense, useEffect, useState } from "react";
-import { api, hello, generateQR } from "./utils/api";
+import { generateQR } from "./utils/api";
 import { AxiosResponse } from "axios";
 
 function App() {
